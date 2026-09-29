@@ -1,0 +1,16 @@
+name: anre_rag_env
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - numpy>=1.24
+  - pytorch>=2.0.0
+  - torchvision>=0.15.0
+  - cpuonly
+  - pip:
+      - streamlit>=1.28.0
+      - sentence-transformers>=2.2.2
+      - faiss-cpu>=1.7.4
